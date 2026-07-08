@@ -12,7 +12,7 @@ from typing import List, Optional
 # -------------------- 可调参数 --------------------
 FILE_EXIST_AUTO_REWRITE = 1          # 1: 自动覆盖, 0: 询问
 IMG_NAME_REWRITE = 1                 # 1: 重命名为 0001.jpg, 0: 使用原始文件名
-MIN_IMG_SIZE_BYTES = 50 * 1024       # 小于该大小的图片将被跳过（50KB）
+MIN_IMG_SIZE_BYTES = 5 * 1024       # 小于该大小的图片将被跳过（5KB）
 # ------------------------------------------------
 
 def sanitize_filename(filename: str) -> str:
