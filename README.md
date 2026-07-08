@@ -8,4 +8,5 @@
 Python script that extracts the picture files from the archive file of .mht webpage and converts the .mpkg file into a .zip file as a whole.
 Adapting to the compatibility of QPython v3 on Android, Python3.x also can use.
 Select file import and run in QPython, and in the computer where Python is installed, double-click Run.
+
 The story about mpkg2zip.py https://www.52pojie.cn/thread-2106085-1-1.html
